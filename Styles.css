@@ -1,0 +1,698 @@
+body{
+	background-color:black;
+}
+header{
+	background-image: linear-gradient(180.00deg, rgb(17,17,17),rgba(119,119,119,0)100%);
+}
+*{
+	text-decoration:none;
+}
+.navbar{
+	font-family:Inter;
+	padding-right:15px;
+	padding-left:15px;
+}
+.navdiv{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-right:5%;
+}
+.Fitness{
+	color:tomato;
+	font-style: italic;
+	font-weight: 800;
+	font-size: 36px;
+	padding-left:7%
+}
+li{
+	list-style:none;
+	display:inline-block;
+	color:white;
+	font-size:18px;
+	font-weight: 400;
+	margin-right:25px;
+}
+.homebutton{
+	border-radius:39px;
+	background-color:tomato;
+	font-size: 20px;
+	justify-content: center;
+	margin-right:25px;
+	color:white;
+	padding:8px;
+	width:100px;
+	
+	
+}
+.navul{
+	box-sizing: border-box;
+	border:1px solid;
+	border-radius:39px;
+	border-color:gray;
+	height:45px;
+	display:flex;
+	align-items:center;
+
+}
+
+#getbody{
+	color:white;
+	font-family:Inter;
+	font-size: 75px;
+	font-weight: 700;
+	display:flex;
+	flex-direction: column;
+	padding-left:9%;
+	padding-bottom: 0%;
+	
+}
+.imagediv {
+
+	display: flex;
+	justify-content: space-between;
+	padding-top:2%;
+
+}
+#club{
+	background-color:tomato;
+	width:200px;
+	height:54px;
+	font-size: 20px;
+	justify-content: center;
+	margin-right: 25px;
+	color: white;
+	border-radius: 39px;
+}
+#hugep{
+	color:gray; font-family:Inter;font-size: 15px;display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-start;padding-top: 3%;width:548px;
+}
+#download{
+	color:white;
+	font-size: 21px;
+	background-color:black;
+	box-sizing: border-box;
+	border:1px solid white;
+	border-radius:39px;
+	width:200px;
+	height:54px;
+}
+#buttondiv{
+	padding-left:8.5%;
+	padding-top:1%;
+}
+#cards{
+	color:white;
+	padding-left:10%;
+}
+
+.firstimage{
+	background-image: url(./images/Images\ 2.png);
+	background-repeat: no-repeat;
+	padding-right: 24%;
+}
+.freeworkout{
+	box-sizing: border-box;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	background: rgba(255, 255, 255, 0.1);
+	width: 130%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	position:relative;
+	left: 200px;
+	top:120px;
+	
+	
+}
+.tutorial{
+	box-sizing: border-box;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	background: rgba(255, 255, 255, 0.1);
+	width: 170%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top:320px;
+	right:120px;
+}
+#change{
+	color:white;
+	font-family: Inter;
+	font-weight: 700;
+	font-size: 48px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding-top:4%;
+}
+#webelieve{
+	font-weight: 400;
+	font-size: 16px;
+	color:gray;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+
+	
+}
+.banner1{
+	line-height: 20px;
+}
+#movement{
+	color:white;
+	font-family:Inter;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+#movementp{
+	color: gray;
+	width: 190px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+.habitimage{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+	padding-top:2%;
+	
+}
+#time{
+	color:white;
+	font-family: Inter;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#timep{
+	color: gray;
+	width: 190px;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+#practice{
+	color:white;
+	font-family: Inter;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#practicep{
+	color: gray;
+	width: 190px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+#weightloss{
+	color:white;
+	font-family: Inter;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#weightlossp{
+	color: gray;
+	width: 190px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+#image3{
+	border-radius: 50%;
+}
+#image2{
+	border-radius: 50%;
+}
+#image4{
+	border-radius: 50%;
+}
+#image5{
+	border-radius: 50%;
+}
+#banner2{
+	box-sizing: border-box;
+	border-radius: 18px;
+	backdrop-filter: blur(20px);
+	background: rgba(255, 255, 255, 0.1);
+	width: 60%;
+	height:310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left:20%;
+     top:120px;
+	
+}
+#extramile{
+	color:white;
+	font-family:Inter;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 120%;
+	width:420px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding-left:2%;
+}
+#extramilep{
+	color:gray;
+	width:440px;
+}
+.runanextramile{
+	
+	box-sizing: border-box;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	backdrop-filter: blur(20px);
+	background: rgba(255, 255, 255, 0.1);
+	width: 1112px;
+	height:350px;
+	display: flex;
+	position:relative;
+	left:11%;
+	justify-content: space-between;
+		
+
+}
+#runanextramileh2{
+	color:white;
+	font-family:Inter;
+	font-weight: 900;
+	font-size: 48px;
+	display:flex;
+	padding-left:7%;
+	align-items: center;
+	width:350px ;
+}
+#runanextramilep{
+	color:gray;
+	font-family: Inter;
+	font-weight: 400;
+	font-size: 14px;
+	width:69%;
+	line-height: 24px;
+	letter-spacing: 0.3px;
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left:7%;
+}
+#runimage{
+	border-radius:18px;
+	width: 366px;
+	height: 312px;
+	position:relative;
+	display:felx;
+	top:5.5%;
+	bottom:5%;
+	right:3%;
+}
+#rundiv{
+	padding-left:6%;
+}
+#runbutton{
+	background-color: tomato;
+	width: 200px;
+	height: 54px;
+	font-size: 20px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border-radius: 39px;
+}
+#bmih{
+	color:white;
+	font-family:Inter;
+	font-weight:800;
+	font-size: 48px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding-top:4%;
+}
+#bmip{
+	color:gray;
+	font-family: Inter;
+	font-weight: 400;
+	font-size: 14px;
+	width:auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#calculatorchart{
+	color:White;
+	font-family:Inter;
+	font-size:28px;
+	font-weight:600px;
+}
+#BMI{
+	color:white;
+	font-family:Inter;
+	font-size:21px;
+}
+#weightstatus{
+	color: white;
+	font-family: Inter;
+	font-size: 21px;
+	
+}
+th{
+	color:beige;
+	text-align:left;
+	font-family:Inter;
+	font-weight:50px;
+}
+.bmitable{
+	width:400px;
+	border-spacing:50px;
+}
+.bmitable,th,tr{
+	border:1px solid gray;
+	border-collapse:collapse
+}
+th,tr{
+	padding:20px;
+}
+.BMIDIV{
+	background-color:rgb(33, 46, 46);
+	height:500px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#bmitable{
+	padding-top:2%;
+	padding-left:5%;
+	padding-bottom:3%;
+}
+#headings{
+	display:flex;
+	flex-direction:column;
+	align-items: flex-start;
+	line-height: 2%;
+	color:whitesmoke;
+	font-size: 20px;
+	font-weight:500;
+	font-family:Inter;
+	padding-top:8%;
+}
+#height{
+	height:21px;
+	width:26px;
+}
+#calculatortable{
+	line-height: 50px;
+}
+input{
+	width:226px;
+	height:36px;
+	background-color:cornsilk;
+	border-radius: 9px;
+	display:flex;
+	
+	
+}
+#select1{
+	width:226px;
+	height:38px;
+	background-color:cornsilk;
+	border-radius:9px;
+}
+#select2{
+	width: 226px;
+	height: 38px;
+	background-color: cornsilk;
+	border-radius: 9px;
+	line-height: 12px;
+}
+#buttonbmi{
+	background-color: tomato;
+	width: 200px;
+	height: 54px;
+	font-size: 20px;
+	color: white;
+	border-radius: 39px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+	top:3%;
+}
+#meeth{
+	color:white;
+	font-family:Inter;
+	font-weight:800;
+	font-size:48px;
+	line-height:1%;
+}
+#meetp{
+	color:gray;
+	font-family:Inter;
+	font-weight:400;
+	font-size:18px;
+	
+}
+
+#meettitles{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	
+}
+#trainer1{
+	
+	width: 326.67px;
+	height: 272px;
+	border-radius:18px;
+	padding: 3%;
+}
+#trainer2{
+	width: 326.67px;
+	height: 272px;
+	border-radius: 18px;
+	padding: 3%;
+}
+#trainer3{
+	width: 326.67px;
+	height: 272px;
+	border-radius: 18px;
+	padding: 3%;
+}
+#trainer4{
+	width: 326.67px;
+	height: 272px;
+	border-radius: 18px;
+	padding: 3%;
+}
+#trainer5{
+	width: 326.67px;
+	height: 272px;
+	border-radius: 18px;
+	padding:3%;
+	
+}
+#trainer6{
+	width: 326.67px;
+	height: 272px;
+	border-radius: 18px;
+	padding: 3%;
+	
+}
+#boxdiv{
+	background-color: rgb(59, 57, 57);
+	height: 611px;
+	width:1080px;
+	border-radius:21px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	position:relative;
+	left:14%;
+}
+#trainerdiv{
+	display:grid;
+	grid-template-columns:350px 350px 350px;
+	justify-content: center;
+	align-items: center;
+}
+#mysectionp{
+	font-weight: 900;
+	font-size: 29px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	padding-left: 31%;
+	width: 520px;
+}
+.footer{
+	background-color:gray;
+}
+.footerfitnessh{
+	color: tomato;
+	font-family:Inter;
+	font-style: italic;
+	font-weight: 800;
+	font-size: 36px;
+	padding-left: 7%;
+	padding-top:3%;
+	gap:1%;
+}
+#footerfitnessp{
+	color:black;
+	font-family:Inter;
+	font-weight:500;
+	font-size:18px;
+	width:222px;
+	padding-left: 7%;
+}
+#horizontalline{
+	width:1000px;
+	height:1px;
+	background-color:bisque;
+	position:relative;
+	left:20%;
+}
+#rights{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+@media screen and (max-width: 576px) 
+	{
+		.navdiv{
+			display:grid;
+			grid-template-columns: auto;
+			flex-direction:column;
+		}
+		
+		#getbody{
+			font-size:36px;
+		}
+		#hugep{
+			
+				width: 274px;	
+				gap:28px;
+				line-height: 24px;
+				letter-spacing: 0.5px;
+				padding-top:5%;
+				padding-bottom:9%;	
+		}
+		.buttonspan{
+			display:flex;
+			flex-direction:row;
+		}
+		.imagediv{
+			display:flex;
+			flex-direction: column;
+		
+			
+		}
+		.firstimage{
+			height:600px;
+			padding-left:29%;
+			
+		}
+		.freeworkout{
+			width:200px;
+			position:relative;
+			left:25%;
+			top:105px;
+		}
+		.tutorial{
+			width:200px;
+		}
+		.banner1{
+			display:flex;
+			flex-direction:column;
+		}
+		#change{
+			position:static;
+			width:318px;
+			font-size:30px;
+		}
+		#webelieve{
+			width:316px;
+			font-size:14px;
+			display:flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+		.habitimage{
+			display:flex;
+			flex-direction:column;
+	
+				justify-content: center;
+				align-items: center;
+		}
+		.runanextramile{
+			display:flex;
+			flex-direction:column;
+			justify-content: flex-start;
+			align-items: center;
+			height:920px;
+			width:440px;
+		}
+		
+		.BMIDIV{
+			height:900px;
+			display:flex;
+			flex-direction:column;
+		}
+		#youcan{
+			width:500px;
+			font-size:19px;
+		}
+	#boxdiv{
+		background-color: rgb(59, 57, 57);
+		height: 1760px;
+		width: 343px;
+		border-radius: 21px;
+		display:flex;
+		flex-direction:column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+#trainerdiv {
+	display: grid;
+	grid-template-columns:280px;
+
+		}
+		.footer{
+			width:490px;
+		}
+		#horizontalline{
+			width:200px;
+		}
+		
+		
+		
+}
